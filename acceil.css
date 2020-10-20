@@ -1,0 +1,107 @@
+    .carousel-caption d-none d-md-block {
+        height: 100vh;
+        min-height: 350px;
+        background: no-repeat center center scroll;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    
+    .navbar-brand {
+        color: rgba(0, 0, 0, 0.2);
+        color: #c8a97e;
+        font-weight: bold;
+        font-family: 'Great Vibes', cursive;
+        font-size: 30px;
+    }
+    
+    .carousel {
+        position: relative;
+    }
+    
+    .carousel-inner {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    .navbar {
+        position: absolute;
+        width: 100%;
+        z-index: 10;
+        max-width: 100%;
+    }
+    
+    #Apropos {
+        margin-top: 400px;
+        margin-left: 600px;
+        font-size: 40px;
+    }
+    
+    #img4 {
+        margin-left: 200px;
+    }
+    
+    #paragra {
+        margin-top: 50px;
+    }
+    
+    .propos {
+        background-color: blanchedalmond;
+        box-shadow: darkgray;
+        width: 80%;
+        margin-left: 150px;
+        margin-top: 80px;
+        border-style: double;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    
+    #p1 {
+        padding-top: 80px;
+        background-image: url(img5.webp);
+        height: 300px;
+        font-size: 15px;
+        margin-top: 100px;
+        color: black;
+        padding-right: 50px;
+        padding-left: 50px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 25px;
+    }
+    
+    #p2 {
+        padding-top: 80px;
+        background-image: url(img6.webp);
+        height: 300px;
+        font-size: 15px;
+        margin-top: 100px;
+        color: black;
+        padding-right: 50px;
+        padding-left: 50px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 25px;
+    }
+    
+    #logo {
+        color: rgba(0, 0, 0, 0.2);
+        color: #c8a97e;
+        font-weight: bold;
+        font-family: 'Great Vibes', cursive;
+        font-size: 30px;
+    }
+    
+    .baspage {
+        background-image: linear-gradient(rgba(247, 240, 240, 0.829), rgb(26, 24, 26));
+        margin-top: 100px;
+        padding-top: 50px;
+        padding-left: 150px;
+    }
+    
+    #btn {
+        color: transparent;
+    }
+    
+    #icone {
+        padding-top: -50px;
+    }

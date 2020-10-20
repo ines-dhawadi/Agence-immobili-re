@@ -1,0 +1,16 @@
+.navbar-brand {
+    color: rgba(0, 0, 0, 0.2);
+    color: #c8a97e;
+    font-weight: bold;
+    font-family: 'Great Vibes', cursive;
+    font-size: 30px;
+}
+
+#titre1 {
+    margin-top: 250px;
+    margin-left: 100px;
+}
+
+.haut {
+    background-image: url(image/pho1.webp);
+}
