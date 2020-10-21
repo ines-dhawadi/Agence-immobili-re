@@ -56,9 +56,10 @@
     }
     
     .propos {
-        background-color: blanchedalmond;
+        background-color: rgb(252, 244, 232);
         box-shadow: darkgray;
         width: 80%;
+        padding-bottom: 50px;
         margin-left: 150px;
         margin-top: 80px;
         border-style: double;
@@ -99,17 +100,6 @@
         font-size: 30px;
     }
     
-    .baspage {
+    footer {
         background-image: linear-gradient(rgba(247, 240, 240, 0.829), rgb(26, 24, 26));
-        margin-top: 100px;
-        padding-top: 50px;
-        padding-left: 150px;
-    }
-    
-    #btn {
-        color: transparent;
-    }
-    
-    #icone {
-        padding-top: -50px;
     }
