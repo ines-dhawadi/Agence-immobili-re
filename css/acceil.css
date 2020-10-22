@@ -1,105 +1,332 @@
-    .carousel-caption d-none d-md-block {
-        height: 100vh;
-        min-height: 350px;
-        background: no-repeat center center scroll;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-    }
-    
-    .navbar-brand {
-        color: rgba(0, 0, 0, 0.2);
-        color: #c8a97e;
-        font-weight: bold;
-        font-family: 'Great Vibes', cursive;
-        font-size: 30px;
-    }
-    
-    .carousel {
-        position: relative;
-    }
-    
-    .carousel-inner {
-        position: relative;
-        width: 100%;
-        overflow: hidden;
-    }
-    
-    .navbar {
-        position: absolute;
-        width: 100%;
-        z-index: 10;
-        max-width: 100%;
-    }
-    
-    nav .nav-item .nav-link {
-        color: black !important;
-    }
-    
-    .nav-item>a {
-        color: black;
-    }
-    
-    #Apropos {
-        margin-top: 400px;
-        margin-left: 600px;
-        font-size: 40px;
-    }
-    
-    #img4 {
-        margin-left: 200px;
-    }
-    
-    #paragra {
-        margin-top: 50px;
-    }
-    
-    .propos {
-        background-color: rgb(252, 244, 232);
-        box-shadow: darkgray;
-        width: 80%;
-        padding-bottom: 50px;
-        margin-left: 150px;
-        margin-top: 80px;
-        border-style: double;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    }
-    
-    #p1 {
-        padding-top: 80px;
-        background-image: url(img5.webp);
-        height: 300px;
-        font-size: 15px;
-        margin-top: 100px;
-        color: white;
-        padding-right: 50px;
-        padding-left: 50px;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        border-radius: 25px;
-    }
-    
-    #p2 {
-        padding-top: 80px;
-        background-image: url(img6.webp);
-        height: 300px;
-        font-size: 15px;
-        margin-top: 100px;
-        color: black;
-        padding-right: 50px;
-        padding-left: 50px;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        border-radius: 25px;
-    }
-    
-    #logo {
-        color: rgba(0, 0, 0, 0.2);
-        color: #c8a97e;
-        font-weight: bold;
-        font-family: 'Great Vibes', cursive;
-        font-size: 30px;
-    }
-    
-    footer {
-        background-image: linear-gradient(rgba(247, 240, 240, 0.829), rgb(26, 24, 26));
-    }
+                                                    .carousel-caption d-none d-md-block {
+                                                        height: 100vh;
+                                                        min-height: 350px;
+                                                        background: no-repeat center center scroll;
+                                                        -webkit-background-size: cover;
+                                                        -moz-background-size: cover;
+                                                        -o-background-size: cover;
+                                                        background-size: cover;
+                                                    }
+                                                    
+                                                    .navbar-brand {
+                                                        color: #c8a97e;
+                                                        font-weight: bold;
+                                                        font-family: 'Great Vibes', cursive;
+                                                        font-size: 30px;
+                                                    }
+                                                    
+                                                    .nav-item {
+                                                        font-size: 20px;
+                                                        color: white;
+                                                    }
+                                                    
+                                                    .nav-item {
+                                                        font-size: 20px;
+                                                        color: white;
+                                                    }
+                                                    
+                                                    .navbar-brand {
+                                                        color: rgba(0, 0, 0, 0.2);
+                                                        color: #c8a97e;
+                                                        font-weight: bold;
+                                                        font-family: 'Great Vibes', cursive;
+                                                        font-size: 30px;
+                                                    }
+                                                    /*--------------------------------------carousel-----------------------------*/
+                                                    
+                                                    .carousel {
+                                                        position: relative;
+                                                    }
+                                                    
+                                                    .carousel-inner {
+                                                        position: relative;
+                                                        width: 100%;
+                                                        overflow: hidden;
+                                                    }
+                                                    
+                                                    .navbar {
+                                                        position: absolute;
+                                                        width: 100%;
+                                                        z-index: 10;
+                                                        max-width: 100%;
+                                                    }
+                                                    
+                                                    nav .nav-item .nav-link {
+                                                        color: black !important;
+                                                    }
+                                                    
+                                                    .nav-item>a {
+                                                        color: black;
+                                                    }
+                                                    /*--------------------------------a propos-----------------------------------*/
+                                                    
+                                                    #Apropos {
+                                                        margin-top: 400px;
+                                                        margin-left: 600px;
+                                                        font-size: 40px;
+                                                    }
+                                                    
+                                                    #img4 {
+                                                        margin-left: 200px;
+                                                    }
+                                                    
+                                                    #paragra {
+                                                        margin-top: 50px;
+                                                    }
+                                                    
+                                                    .propos {
+                                                        background-color: blanchedalmond !important;
+                                                        box-shadow: darkgray !important;
+                                                        width: 80% !important;
+                                                        margin-left: 150px !important;
+                                                        margin-top: 80px !important;
+                                                        border-style: double !important;
+                                                        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+                                                    }
+                                                    
+                                                    #logo {
+                                                        color: rgba(0, 0, 0, 0.2);
+                                                        color: #c8a97e;
+                                                        font-weight: bold;
+                                                        font-family: 'Great Vibes', cursive;
+                                                        font-size: 30px;
+                                                    }
+                                                    /*-------------------------------footer--------------------------------*/
+                                                    
+                                                    footer {
+                                                        background-image: linear-gradient(rgba(247, 240, 240, 0.829), rgb(26, 24, 26));
+                                                    }
+                                                    /*---------------------------------Témoi---------------------------*/
+                                                    
+                                                    .hovereffect {
+                                                        width: 100%;
+                                                        height: 100%;
+                                                        float: left;
+                                                        overflow: hidden;
+                                                        position: relative;
+                                                        text-align: center;
+                                                        cursor: default;
+                                                    }
+                                                    
+                                                    .hovereffect .overlay {
+                                                        width: 100%;
+                                                        height: 100%;
+                                                        position: absolute;
+                                                        overflow: hidden;
+                                                        top: 0;
+                                                        left: 0;
+                                                    }
+                                                    
+                                                    .hovereffect img {
+                                                        display: block;
+                                                        position: relative;
+                                                        -webkit-transition: all 0.4s ease-in;
+                                                        transition: all 0.4s ease-in;
+                                                    }
+                                                    
+                                                    .hovereffect:hover img {
+                                                        filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feColorMatrix type="matrix" color-interpolation-filters="sRGB" values="0.2126 0.7152 0.0722 0 0 0.2126 0.7152 0.0722 0 0 0.2126 0.7152 0.0722 0 0 0 0 0 1 0" /><feGaussianBlur stdDeviation="3" /></filter></svg>#filter');
+                                                        filter: grayscale(1) blur(3px);
+                                                        -webkit-filter: grayscale(1) blur(3px);
+                                                        -webkit-transform: scale(1.2);
+                                                        -ms-transform: scale(1.2);
+                                                        transform: scale(1.2);
+                                                    }
+                                                    
+                                                    .hovereffect h2 {
+                                                        text-transform: uppercase;
+                                                        text-align: center;
+                                                        position: relative;
+                                                        font-size: 17px;
+                                                        padding: 10px;
+                                                        background: rgba(0, 0, 0, 0.6);
+                                                    }
+                                                    
+                                                    .hovereffect a.info {
+                                                        display: inline-block;
+                                                        text-decoration: none;
+                                                        padding: 7px 14px;
+                                                        border: 1px solid #fff;
+                                                        margin: 50px 0 0 0;
+                                                        background-color: transparent;
+                                                    }
+                                                    
+                                                    .hovereffect a.info:hover {
+                                                        box-shadow: 0 0 5px #fff;
+                                                    }
+                                                    
+                                                    .hovereffect a.info,
+                                                    .hovereffect h2 {
+                                                        -webkit-transform: scale(0.7);
+                                                        -ms-transform: scale(0.7);
+                                                        transform: scale(0.7);
+                                                        -webkit-transition: all 0.4s ease-in;
+                                                        transition: all 0.4s ease-in;
+                                                        opacity: 0;
+                                                        filter: alpha(opacity=0);
+                                                        color: #fff;
+                                                        text-transform: uppercase;
+                                                    }
+                                                    
+                                                    .hovereffect:hover a.info,
+                                                    .hovereffect:hover h2 {
+                                                        opacity: 1;
+                                                        filter: alpha(opacity=100);
+                                                        -webkit-transform: scale(1);
+                                                        -ms-transform: scale(1);
+                                                        transform: scale(1);
+                                                    }
+                                                    
+                                                    body {
+                                                        background-color: rgba(255, 255, 255, 0.733);
+                                                    }
+                                                    
+                                                    .hovereffect {
+                                                        width: 100%;
+                                                        height: 100%;
+                                                        float: left;
+                                                        overflow: hidden;
+                                                        position: relative;
+                                                        text-align: center;
+                                                        cursor: default;
+                                                    }
+                                                    
+                                                    .hovereffect .overlay {
+                                                        width: 100%;
+                                                        height: 100%;
+                                                        position: absolute;
+                                                        overflow: hidden;
+                                                        top: 0;
+                                                        left: 0;
+                                                    }
+                                                    
+                                                    .hovereffect img {
+                                                        display: block;
+                                                        position: relative;
+                                                        -webkit-transition: all 0.4s ease-in;
+                                                        transition: all 0.4s ease-in;
+                                                    }
+                                                    
+                                                    .hovereffect:hover img {
+                                                        filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feColorMatrix type="matrix" color-interpolation-filters="sRGB" values="0.2126 0.7152 0.0722 0 0 0.2126 0.7152 0.0722 0 0 0.2126 0.7152 0.0722 0 0 0 0 0 1 0" /><feGaussianBlur stdDeviation="3" /></filter></svg>#filter');
+                                                        filter: grayscale(1) blur(3px);
+                                                        -webkit-filter: grayscale(1) blur(3px);
+                                                        -webkit-transform: scale(1.2);
+                                                        -ms-transform: scale(1.2);
+                                                        transform: scale(1.2);
+                                                    }
+                                                    
+                                                    .hovereffect h2 {
+                                                        text-transform: uppercase;
+                                                        text-align: center;
+                                                        position: relative;
+                                                        font-size: 17px;
+                                                        padding: 10px;
+                                                        background: rgba(0, 0, 0, 0.6);
+                                                    }
+                                                    
+                                                    .hovereffect a.info {
+                                                        display: inline-block;
+                                                        text-decoration: none;
+                                                        padding: 7px 14px;
+                                                        border: 1px solid #fff;
+                                                        margin: 50px 0 0 0;
+                                                        background-color: transparent;
+                                                    }
+                                                    
+                                                    .hovereffect a.info:hover {
+                                                        box-shadow: 0 0 5px #fff;
+                                                    }
+                                                    
+                                                    .hovereffect a.info,
+                                                    .hovereffect h2 {
+                                                        -webkit-transform: scale(0.7);
+                                                        -ms-transform: scale(0.7);
+                                                        transform: scale(0.7);
+                                                        -webkit-transition: all 0.4s ease-in;
+                                                        transition: all 0.4s ease-in;
+                                                        opacity: 0;
+                                                        filter: alpha(opacity=0);
+                                                        color: #fff;
+                                                        text-transform: uppercase;
+                                                    }
+                                                    
+                                                    .hovereffect:hover a.info,
+                                                    .hovereffect:hover h2 {
+                                                        opacity: 1;
+                                                        filter: alpha(opacity=100);
+                                                        -webkit-transform: scale(1);
+                                                        -ms-transform: scale(1);
+                                                        transform: scale(1);
+                                                    }
+                                                    /*--------------------------------------louer--------------------------*/
+                                                    
+                                                    body {
+                                                        margin: 0%;
+                                                        padding: 0%;
+                                                    }
+                                                    
+                                                    ul li a:hover {
+                                                        color: rgb(184, 81, 13);
+                                                    }
+                                                    
+                                                    .card-title {
+                                                        margin-top: 200px;
+                                                        margin-left: 200px;
+                                                        font-size: 60px;
+                                                        color: rgb(112, 7, 7);
+                                                        text-shadow: black;
+                                                    }
+                                                    
+                                                    #card2 {
+                                                        margin-top: 200px;
+                                                    }
+                                                    
+                                                    #card3 {
+                                                        margin-top: 50px;
+                                                        margin-bottom: 100px;
+                                                    }
+                                                    
+                                                    #logo {
+                                                        color: #c8a97e;
+                                                        font-weight: bold;
+                                                        font-family: 'Great Vibes', cursive;
+                                                        font-size: 30px;
+                                                    }
+                                                    
+                                                    body {
+                                                        background-color: rgb(236, 234, 232);
+                                                    }
+                                                    /*---------------- card louer------------------*/
+                                                    
+                                                    ul li a:hover {
+                                                        color: rgb(184, 81, 13);
+                                                    }
+                                                    
+                                                    .card-title {
+                                                        margin-top: 200px;
+                                                        margin-left: 200px;
+                                                        font-size: 60px;
+                                                        color: rgb(112, 7, 7);
+                                                        text-shadow: black;
+                                                    }
+                                                    
+                                                    #card2 {
+                                                        margin-top: 400px;
+                                                    }
+                                                    
+                                                    #card3 {
+                                                        margin-top: 50px;
+                                                        margin-bottom: 100px;
+                                                    }
+                                                    
+                                                    #logo {
+                                                        color: #c8a97e;
+                                                        font-weight: bold;
+                                                        font-family: 'Great Vibes', cursive;
+                                                        font-size: 30px;
+                                                    }
+                                                    
+                                                    body {
+                                                        background-color: rgb(236, 234, 232);
+                                                    }

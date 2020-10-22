@@ -15,6 +15,7 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="n.js">
+    <link rel="stylesheet" href="./css/acceil.css">
     <style>
         #multi-item-example {
             margin-top: 150px;
@@ -39,24 +40,24 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="/html/acceil.html">Acceuil</a>
+                    <a class="nav-link" href="acceil.html">Acceuil</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="/html/Acheter.html">Acheter</a>
+                    <a class="nav-link" href="Acheter.html">Acheter</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="/html/Louer.html">louer</a>
+                    <a class="nav-link" href="Louer.html">louer</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="/html/Neuf.html">Neuf</a>
-                </li>
-
-                <li class="nav-item active">
-                    <a class="nav-link" href="/html/Actualité.html">Actualité</a>
+                    <a class="nav-link" href="Neuf.html">Neuf</a>
                 </li>
 
                 <li class="nav-item active">
-                    <a class="nav-link" href="/html/contact.html">Contact</a>
+                    <a class="nav-link" href="Actualité.html">Actualité</a>
+                </li>
+
+                <li class="nav-item active">
+                    <a class="nav-link" href="contact.html">Contact</a>
                 </li>
 
             </ul>
@@ -65,20 +66,21 @@
     <!------------------------------------------------------------------------------>
 
     <div class="card bg-dark text-dark">
-        <img src="../img1.webp" class="card-img" alt="..." style="height: 500px;">
+        <img src="img1.webp" class="card-img" alt="..." style="height: 500px;">
         <div class="card-img-overlay">
             <h5 class="card-title">Neuf</h5>
 
         </div>
     </div>
 
-
+    <!----------------------------------------------------->
+    <h1 class="text-center"> Neuf</h1>
     <!--------------------------------------carocelle---------------------------->
 
     <div class="container" style="margin-top: 150px; margin-bottom: 150px;">
         <div class="card-deck">
             <div class="card">
-                <img class="card-img-top" src="../image/neuf1.jpg" alt="Card image cap" style="height: 235px;">
+                <img class="card-img-top" src="image/neuf1.jpg" alt="Card image cap" style="height: 235px;">
                 <div class="card-body">
                     <h5 class="card-title">Acheter une maison neuve</h5>
                     <p class="card-text">Acheter une maison neuve demande de la réflexion et quelques précautions. </p>
@@ -86,7 +88,7 @@
                 </div>
             </div>
             <div class="card">
-                <img class="card-img-top" src="../image/neuf2.jpg" alt="Card image cap">
+                <img class="card-img-top" src="image/neuf2.jpg" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">Acheter une maison neuve</h5>
                     <p class="card-text">Si vous êtes pressé par le temps ou que vous trouviez la maison de vos rêves </p>
@@ -94,7 +96,7 @@
                 </div>
             </div>
             <div class="card">
-                <img class="card-img-top" src="../image/neuf3.jpg" alt="Card image cap">
+                <img class="card-img-top" src="image/neuf3.jpg" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">Acheter une maison neuve</h5>
                     <p class="card-text">De nombreux promoteurs proposent ce type de vente pour des maisons plutôt citadines. </p>
@@ -103,12 +105,13 @@
             </div>
         </div>
     </div>
-
+    <!-------------------------------------------------voir plus--------------------------->
+    <a class="btn btn-outline-success btn-sm" href="https://immobilier.mitula.tn/maison-neuve-tunis" style="margin-left: 600px; margin-bottom: 50px; margin-top: -50px;">voire plus</a>
     <!-------------------------------------------js-------------------------------------->
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="w-100 d-block" src="https://mdbootstrap.com/img/Photos/Slides/img%20(35).jpg">
+                <img class="w-100 d-block" src="image/arpl3.webp">
             </div>
             <div class="carousel-item">
                 <img class="w-100 d-block" src="https://mdbootstrap.com/img/Photos/Slides/img%20(33).jpg">
@@ -118,16 +121,16 @@
             </div>
         </div>
     </div>
-    <!-----------------------------------f------------------------------------------->
+    <!-----------------------------------footer------------------------------------------->
 
 
     <!-- Footer -->
     <footer class="page-footer font-small mdb-color pt-4 bg-dark text-white">
 
-        <!-- Footer Links -->
+
         <div class="container text-center text-md-left">
 
-            <!-- Footer links -->
+
             <div class="row text-center text-md-left mt-3 pb-3">
 
                 <!-- logo -->
@@ -144,22 +147,22 @@
                 <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
                     <h6 class="text-uppercase mb-4 font-weight-bold">Retour</h6>
                     <p>
-                        <a href="#!">Acceuil</a>
+                        <a href="acceil.html">Acceuil</a>
                     </p>
                     <p>
-                        <a href="#!">Acheter</a>
+                        <a href="Acheter.html">Acheter</a>
                     </p>
                     <p>
-                        <a href="#!">louer</a>
+                        <a href="Louer.html">louer</a>
                     </p>
                     <p>
-                        <a href="#!">Neuf</a>
+                        <a href="Neuf.html">Neuf</a>
                     </p>
                     <p>
-                        <a href="#!">Actualité</a>
+                        <a href="Actualité.html">Actualité</a>
                     </p>
                     <p>
-                        <a href="#!">contact</a>
+                        <a href="Actualité.html">contact</a>
                     </p>
                 </div>
 
