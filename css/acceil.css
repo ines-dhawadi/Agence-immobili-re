@@ -8,6 +8,8 @@
                                                         background-size: cover;
                                                     }
                                                     
+                                                    .navbar-nav {}
+                                                    
                                                     .navbar-brand {
                                                         color: #c8a97e;
                                                         font-weight: bold;
@@ -52,11 +54,11 @@
                                                     }
                                                     
                                                     nav .nav-item .nav-link {
-                                                        color: black !important;
+                                                        color: white !important;
                                                     }
                                                     
                                                     .nav-item>a {
-                                                        color: black;
+                                                        color: white;
                                                     }
                                                     /*--------------------------------a propos-----------------------------------*/
                                                     
@@ -94,7 +96,7 @@
                                                     /*-------------------------------footer--------------------------------*/
                                                     
                                                     footer {
-                                                        background-image: linear-gradient(rgba(247, 240, 240, 0.829), rgb(26, 24, 26));
+                                                        width: 100%;
                                                     }
                                                     /*---------------------------------Témoi---------------------------*/
                                                     
@@ -329,4 +331,19 @@
                                                     
                                                     body {
                                                         background-color: rgb(236, 234, 232);
+                                                    }
+                                                    /*----------------------------------contact-----map--------------------------------------*/
+                                                    
+                                                    .mapouter {
+                                                        position: relative;
+                                                        text-align: right;
+                                                        height: 333px;
+                                                        width: 600px;
+                                                    }
+                                                    
+                                                    .gmap_canvas {
+                                                        overflow: hidden;
+                                                        background: none!important;
+                                                        height: 333px;
+                                                        width: 600px;
                                                     }
